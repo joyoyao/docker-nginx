@@ -4,7 +4,8 @@ services:
     image : ghost
     restart: always
     container_name: ghost
-
+    volumes:
+       - /Users/laputan/Documents/workspace/web/docker-ghost:/var/lib/ghost
 
   nginx-host:
     build: ./nginx
