@@ -4,8 +4,7 @@ services:
     image : ghost
     restart: always
     container_name: ghost
-    volumes:
-       -/www/ghost:/var/lib/ghost
+    volumes: /www/ghost:/var/lib/ghost
 
   nginx-host:
     build: ./nginx
