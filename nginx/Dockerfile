@@ -1,4 +1,4 @@
 FROM nginx:latest
-MAINTAINER Gordon Chan <github.com/gchan>
+MAINTAINER Joyo <github.com/joyoyao>
 
 COPY default.conf /etc/nginx/conf.d/default.conf
